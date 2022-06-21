@@ -7,7 +7,7 @@ exports.createPages = async ({ actions }) => {
     defer: true,
   })
 	createRedirect({
-    fromPath: `/using-typescript`,
-    toPath: `/page-2`,
+    fromPath: `/page-2`,
+    toPath: `/page-3`,
   });
 }
