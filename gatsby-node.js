@@ -9,7 +9,7 @@ exports.createPages = async ({ actions }) => {
 	createRedirect({
     fromPath: `/page-2`,
     toPath: `https://www.google.com`,
-    redirectInBrowser: true,
+    // redirectInBrowser: true,
     statusCode: 200,
   });
 }
