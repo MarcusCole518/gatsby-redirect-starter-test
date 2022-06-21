@@ -8,7 +8,7 @@ exports.createPages = async ({ actions }) => {
   })
 	createRedirect({
     fromPath: `/page-2`,
-    toPath: `https://www.eql.xyz/en-US/cookie-policy/`,
+    toPath: `https://www.google.com`,
     redirectInBrowser: true,
     statusCode: 200,
   });
