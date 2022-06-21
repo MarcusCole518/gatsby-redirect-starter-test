@@ -8,8 +8,8 @@ exports.createPages = async ({ actions }) => {
   })
 	createRedirect({
     fromPath: `/page-2`,
-    toPath: `/using-typescript`,
+    toPath: `https://www.google.com`,
     // redirectInBrowser: true,
-    // statusCode: 200,
+    statusCode: 200,
   });
 }
