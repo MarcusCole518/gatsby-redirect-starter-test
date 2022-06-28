@@ -10,7 +10,7 @@ exports.createPages = async ({ actions }) => {
     fromPath: `/page-2`,
     toPath: `/using-typescript`,
     conditions: {
-      language: [`zh-CN`]
+      language: [`zh-cn`]
     }
   });
 }
